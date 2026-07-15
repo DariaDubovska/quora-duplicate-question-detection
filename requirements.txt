@@ -1,0 +1,10 @@
+ipykernel
+pandas
+numpy
+scipy
+scikit-learn
+matplotlib
+tqdm
+joblib
+pyarrow
+xgboost
