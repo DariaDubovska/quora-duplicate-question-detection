@@ -1,0 +1,2 @@
+experiment_id,evaluation_split,feature_set,threshold,model,accuracy,precision,recall,f1,roc_auc,log_loss
+tfidf_logreg_baseline,validation,TF-IDF word 1-2 grams: absolute difference + element-wise product,0.5,TF-IDF + Logistic Regression,0.8253099588782735,0.8005446206764762,0.7016581525835357,0.74784665506315,0.9039002087272848,0.38931745290756226

@@ -60,3 +60,27 @@ test_file = os.path.join(
     raw_data_dir,
     "quora_question_pairs_test.csv.zip",
 )
+
+processed_train_file = os.path.join(
+    DRIVE_DIR,
+    "data",
+    "processed",
+    "quora_train_preprocessed.parquet",
+)
+
+processed_test_file = os.path.join(
+    DRIVE_DIR,
+    "data",
+    "processed",
+    "quora_test_preprocessed.parquet",
+)
+
+PROJECT_ROOT_DIR  = os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))
+)
+
+results_file = os.path.join(
+    PROJECT_ROOT_DIR ,
+    "reports",
+    "model_results.csv",
+)
