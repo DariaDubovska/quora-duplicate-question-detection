@@ -1,3 +1,4 @@
 experiment_id,evaluation_split,feature_set,threshold,model,accuracy,precision,recall,f1,roc_auc,log_loss
-tfidf_logreg_baseline,validation,TF-IDF word 1-2 grams: absolute difference + element-wise product,0.5,TF-IDF + Logistic Regression,0.8253099588782735,0.8005446206764762,0.7016581525835357,0.74784665506315,0.9039002087272848,0.3893174529075622
 bert_mean_pooling_cosine,validation,Mean-pooled bert-base-uncased embeddings + cosine similarity,0.8299999999999996,BERT Embeddings + Cosine Similarity,0.6512537488792011,0.5167227039462042,0.855874717360355,0.6443985560932549,0.7454657161918892,
+tfidf_logreg_baseline,validation,TF-IDF word 1-2 grams: absolute difference + element-wise product,0.5,TF-IDF + Logistic Regression,0.8253099588782735,0.8005446206764762,0.7016581525835357,0.74784665506315,0.9039002087272848,0.3893174534865248
+xgboost_engineered_features,validation,14 symmetric lexical and length features + TF-IDF cosine similarity + content-word overlap + weighted content-word overlap,0.5,XGBoost + Engineered Features,0.764508548990508,0.6705580753303096,0.7119169248806633,0.6906188435526128,0.8533957329751387,0.4364754826593055
